@@ -1,0 +1,23 @@
+{
+  "name": "openmusic_consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer/export-playlist/index.js",
+  "scripts": {
+    "dev": "nodemon consumer/export-playlist/index.js",
+    "start": "node consumer/export-playlist/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "dotenv": "^16.6.1",
+    "nodemailer": "^6.10.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
